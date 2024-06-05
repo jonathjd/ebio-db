@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ebiodata',
+    name='ebiodb',
     version='1.0.0',
     description='Test database',
     author='Jonathan Dickinson',
@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'db': ['ebiodata.db'],
+        'ebiodb': ['ebiodb.db'],
     },
     install_requires=[
         'numpy==1.26.4',
