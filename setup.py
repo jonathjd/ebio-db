@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'ebiodata': ['ebiodata.db'],
+        'db': ['ebiodata.db'],
     },
     install_requires=[
         'numpy==1.26.4',
