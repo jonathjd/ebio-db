@@ -9,6 +9,10 @@ setup(
     license='MIT',
     url='https://github.com/jonathjd/ebio-db',
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        'ebiodata': ['ebiodata.db'],
+    },
     install_requires=[
         'numpy==1.26.4',
         'pandas==2.2.2',
